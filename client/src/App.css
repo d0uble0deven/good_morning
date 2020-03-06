@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Spartan', sans-serif;
+  /* background-color: cornsilk; */
 }
 
 .App-logo {
@@ -35,4 +37,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* below is my css code */
+
+h1{
+  font-weight: 900;
+  font-family: 'Spartan', sans-serif;
+}
+h2{
+  font-weight: 500;
+  font-family: 'Spartan', sans-serif;
+}
+p{
+  font-weight: 100;
+  font-family: 'Spartan', sans-serif;
+}
+
+.prime {
+  background-color: cornsilk;
+  border: cornsilk bold 5px;
+  border-radius: 5%;
 }
