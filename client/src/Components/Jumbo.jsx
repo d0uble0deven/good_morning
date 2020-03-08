@@ -1,5 +1,5 @@
 import React from 'react'
-import { Jumbotron, Container, Form, Label, Input, FormGroup, Button } from 'reactstrap'
+import { Jumbotron, Container } from 'reactstrap'
 import '../App.css'
 
 export function Jumbo() {
