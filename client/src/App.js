@@ -3,10 +3,13 @@ import { Container } from 'reactstrap'
 import './App.css'
 import { Jumbo } from './Components/Jumbo'
 import { ContactForm } from './Components/ContactForm'
+import vibes from './Data/Data'
 
 
 
 function App() {
+
+
 
   return (
     <div className="App">
@@ -23,7 +26,8 @@ function App() {
 
       </Container>
       <ContactForm />
-    </div >
+
+    </div>
   )
 }
 
