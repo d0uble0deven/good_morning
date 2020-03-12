@@ -15,7 +15,7 @@ export function ContactForm() {
         // later => feed into Twilio sms api
         let idx = Math.floor(Math.random() * Math.floor(vibes.length));
         let random = vibes[idx];
-        alert(random)
+        alert(random);
         console.log(random);
         return random;
     };
@@ -30,21 +30,19 @@ export function ContactForm() {
     };
 
     const validate = (event, inputFirstName = bindFirstName.value, inputLastName = bindLastName.value, inputNumber = bindNumber.value, inputEmail = bindEmail.value) => {
-        event.preventDefault()
+        event.preventDefault();
         const names = /^\D{2,}$/;
         const number = /^\d{3}-\d{3}-\d{4}$/;
         const emails = /[\w-]+@([\w-]+\.)+[\w-]+/;
         if (names.test(inputFirstName) && names.test(inputLastName) && emails.test(inputEmail)) {
             if (number.test(inputNumber)) {
-                handleSubmit()
+                handleSubmit();
             } else {
                 alert('Please follow the 000-000-0000 format.');
             }
         }
         else alert('Please input valid information.');
-    }
-
-
+    };
 
 
     // add validate function
