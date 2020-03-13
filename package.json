@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Dev-94/good_morning#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "twilio": "^3.40.0"
   }
 }
